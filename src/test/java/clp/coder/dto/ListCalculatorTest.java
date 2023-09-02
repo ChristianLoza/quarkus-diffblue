@@ -6,8 +6,9 @@ import static org.junit.jupiter.api.Assertions.assertSame;
 import java.util.ArrayList;
 import java.util.List;
 
+import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;
-
+@QuarkusTest
 class ListCalculatorTest {
     /**
      * Methods under test:

@@ -4,8 +4,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import clp.coder.dto.EuclideanDto;
+import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;
 
+@QuarkusTest
 class DistanceEuclideanTest {
     /**
      * Method under test: {@link DistanceEuclidean#calculateEuclideanDisntance(EuclideanDto)}
